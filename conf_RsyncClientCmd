@@ -1,0 +1,1 @@
+$Conf{RsyncClientCmd} = '$sshPath -q -x -l backuppc $host nice -n 19 sudo $rsyncPath $argList+';
